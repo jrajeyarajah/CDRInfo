@@ -1,0 +1,41 @@
+﻿
+<h2>From <span style="font-weight:bold;">PowerShell</span> use the following commands use the API</h2>
+<div class="row">
+
+
+    <div class="col-md-4">
+        <h3>To upload a file</h3>
+        <p>$file_contents = Get-Item techtest_cdr_dataset.csv</p>
+        <p>Invoke-RestMethod -uri http://localhost:63570/api/File/Upload -Method Post -Form @@{ file = $file_contents }</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h3>To get all calls from a caller id</h3>
+        <p>Invoke-RestMethod -uri http://localhost:63570/api/cdr?callerId=4.41773E%2B11 -Method Get</p>
+        <p>Note + need to be HTML encoded to %2B</p>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h3>To get a call by reference</h3>
+        <p>Invoke-RestMethod -uri http://localhost:63570/api/cdr?reference=C000776B253F360AF7EA37632D8FEB98C -Method Get</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h3>To get most expensive 5 calls from a caller id</h3>
+        <p>Invoke-RestMethod -uri Invoke-RestMethod -uri http://localhost:63570/api/mostexpensive?callerid=4.42036E%2B11 -Method Get</p>
+        <p>Note + need to be HTML encoded to %2B</p>
+    </div>
+</div>
+<h2>Using <span style="font-weight:bold;">Web browser</span> use the following URI</h2>
+<div class="row">
+    <div class="col-md-4">
+        <h3>To get most expensive 2 calls from a caller id</h3>
+        <p>http://localhost:63570/api/mostexpensive?callerid=4.42036E%2B11&&number=2</p>
+        <p>Note + need to be HTML encoded to %2B</p>
+    </div>
+</div>
+

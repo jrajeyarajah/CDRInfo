@@ -1,0 +1,10 @@
+C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\bin\Debug\ProcessCDRFile.dll
+C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\bin\Debug\ProcessCDRFile.pdb
+C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\bin\Debug\DataLayer.dll
+C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\bin\Debug\DataLayer.pdb
+C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\bin\Debug\DataLayer.dll.config
+C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.csprojAssemblyReference.cache
+C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.csproj.CoreCompileInputs.cache
+C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.csproj.CopyComplete
+C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.dll
+C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.pdb
