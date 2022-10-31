@@ -1,4 +1,12 @@
 # CDRInfo
+API to
+- Uploading new CDR files.
+- Retrieve individual CDR by the CDR Reference.
+- Retrieve all CDRs for a specific Caller ID.
+- Retrieve N most expensive calls, in GBP, for a specific Caller ID.
+
+Current Version
+The current version is 0.1
 
 A database called CDRinfo, table calledtechtest_cdr_dataset,  a view called CDRData and a stored procedure called  spInsertCDRData are used in this projct.
 
