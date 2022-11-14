@@ -8,3 +8,13 @@ C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\obj\Debug\ProcessC
 C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.csproj.CopyComplete
 C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.dll
 C:\Users\Julian.Jeyarajah\source\repos\cdrInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.pdb
+C:\Users\Julian.Jeyarajah\OneDrive - Daisy Group\Documents\GitHub\CDRInfo\ProcessCDRFile\bin\Debug\ProcessCDRFile.dll
+C:\Users\Julian.Jeyarajah\OneDrive - Daisy Group\Documents\GitHub\CDRInfo\ProcessCDRFile\bin\Debug\ProcessCDRFile.pdb
+C:\Users\Julian.Jeyarajah\OneDrive - Daisy Group\Documents\GitHub\CDRInfo\ProcessCDRFile\bin\Debug\DataLayer.dll
+C:\Users\Julian.Jeyarajah\OneDrive - Daisy Group\Documents\GitHub\CDRInfo\ProcessCDRFile\bin\Debug\DataLayer.pdb
+C:\Users\Julian.Jeyarajah\OneDrive - Daisy Group\Documents\GitHub\CDRInfo\ProcessCDRFile\bin\Debug\DataLayer.dll.config
+C:\Users\Julian.Jeyarajah\OneDrive - Daisy Group\Documents\GitHub\CDRInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.csproj.CoreCompileInputs.cache
+C:\Users\Julian.Jeyarajah\OneDrive - Daisy Group\Documents\GitHub\CDRInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.csproj.CopyComplete
+C:\Users\Julian.Jeyarajah\OneDrive - Daisy Group\Documents\GitHub\CDRInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.dll
+C:\Users\Julian.Jeyarajah\OneDrive - Daisy Group\Documents\GitHub\CDRInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.pdb
+C:\Users\Julian.Jeyarajah\OneDrive - Daisy Group\Documents\GitHub\CDRInfo\ProcessCDRFile\obj\Debug\ProcessCDRFile.csprojAssemblyReference.cache

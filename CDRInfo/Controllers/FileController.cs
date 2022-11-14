@@ -1,6 +1,8 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Net;
 using System.Net.Http;
+using System.Text;
 using System.Web;
 using System.Web.Http;
 using ProcessCDRFile;
@@ -29,11 +31,34 @@ namespace CDRInfo.Controllers
                 postedFile.SaveAs(path + postedFile.FileName);
 
                 CDRDataProcessing processingCDR = new CDRDataProcessing();
+                using (FileStream fs = File.Open(path + postedFile.FileName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                using (BufferedStream bs = new BufferedStream(fs))
+                using (StreamReader sr = new StreamReader(bs))
+                {
+                    string line;
+                    int lineCount = 0;
+                    HttpResponseMessage reponse = new HttpResponseMessage();
 
-                processingCDR.readFile(path + postedFile.FileName);
+                    //DateTime start = DateTime.Now;
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        line = line.Trim();
+                        lineCount++;
+                        string errorMsg = processingCDR.ProcessLine(line);
+                        if (errorMsg.StartsWith("Error"))
+                        {
+                            reponse = Request.CreateResponse(HttpStatusCode.BadRequest, string.Format("At Line:{0} {1} {2}", lineCount.ToString(), errorMsg,line));
 
-                //Send OK Response to Client.
-                return Request.CreateResponse(HttpStatusCode.OK, postedFile.FileName);
+                            break;
+                        }
+
+                    }
+                    if (reponse.StatusCode != HttpStatusCode.BadRequest)
+                    {
+                        reponse = Request.CreateResponse(HttpStatusCode.OK, postedFile.FileName);
+                    }
+                    return reponse;
+                }
             }
             else
             {
